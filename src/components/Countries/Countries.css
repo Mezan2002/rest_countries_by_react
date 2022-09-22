@@ -1,0 +1,11 @@
+.countryCard {
+  background-color: aquamarine;
+  border: 2px solid blueviolet;
+  border-radius: 20px;
+  margin: 20px 10px;
+  padding: 50px;
+}
+.countryContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
