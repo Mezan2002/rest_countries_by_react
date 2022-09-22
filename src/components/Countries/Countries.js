@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Countries.css";
 import Country from "../Country/Country";
+import Footer from "../Footer/Footer";
 
 const Countries = () => {
   const [countries, setCountries] = useState([]);
